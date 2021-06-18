@@ -8,8 +8,8 @@ let g:airline#extensions#tabline#left_sep = '  '
 let g:airline#extensions#tabline#left_alt_sep = '  '
 
 " NORMAL
-let s:N1   = [ '#585858' , '#E4E4E4' , 1,  234 ]
-let s:N2   = [ '#E4E4E4' , '#0087AF' , 1,  234 ] "2nd one: buffers tag + buffer BG when inactive (running cmd)
+let s:N1   = [ '#585858' , '#E4E4E4' , 220,  234 ]
+let s:N2   = [ '#E4E4E4' , '#0087AF' , 220,  234 ] "2nd one: buffers tag + buffer BG when inactive (running cmd)
 let s:N3   = [ '#EEEEEE' , '#005F87' , 8,   234]
 let g:airline#themes#rodhash#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 "let g:airline#themes#rodhash#palette.normal_modified = {
