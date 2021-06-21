@@ -17,8 +17,8 @@ let g:airline#themes#rodhash#palette.normal = airline#themes#generate_color_map(
       "\ }
 
 " INSERT
-let s:I1 = [ '#585858' , '#E4E4E4' , 11  , 234 ]
-let s:I2 = [ '#E4E4E4' , '#47AF00' , 11 , 234  ]
+let s:I1 = [ '#585858' , '#E4E4E4' , 16, 9, 'bold' ]
+let s:I2 = [ '#E4E4E4' , '#47AF00' , 9 , 234, 'underline'  ]
 let s:I3 = [ '#EEEEEE' , '#2E8700' , 8  , 234  ]
 let g:airline#themes#rodhash#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 "let g:airline#themes#rodhash#palette.insert_modified = {
@@ -29,7 +29,7 @@ let g:airline#themes#rodhash#palette.insert = airline#themes#generate_color_map(
       "\ }
 
 " REPLACE
-let s:R1 = [ '#585858' , '#E4E4E4' , 234 ,  11  ]
+let s:R1 = [ '#585858' , '#E4E4E4' , 234 , 117  ]
 let s:R2 = [ '#E4E4E4' , '#AF5F00' , 188 , 239  ]
 let s:R3 = [ '#EEEEEE' , '#875300' , 8    , 234 ]
 let g:airline#themes#rodhash#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
@@ -37,9 +37,9 @@ let g:airline#themes#rodhash#palette.replace = airline#themes#generate_color_map
 "let g:airline#themes#rodhash#palette.replace_modified = g:airline#themes#rodhash#palette.insert_modified
 
 " VISUAL
-let s:V1 = [ '#585858' , '#E4E4E4' , 59 , 188 ]
-let s:V2 = [ '#E4E4E4' , '#AF2800' , 188 ,  33 ]
-let s:V3 = [ '#EEEEEE' , '#872800' , 231  , 234 ]
+let s:V1 = [ '#585858' , '#E4E4E4' , 234 , 33 ]
+let s:V2 = [ '#E4E4E4' , '#AF2800' , 188 , 239  ]
+let s:V3 = [ '#EEEEEE' , '#872800' , 8  , 234 ]
 let g:airline#themes#rodhash#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 "let g:airline#themes#rodhash#palette.visual_modified = {
       "\ 'airline_c': [ '#ffffff' , '#5f005f' , 255     , 53      , ''     ] ,
