@@ -17,7 +17,7 @@ let g:airline#themes#rodhash#palette.normal = airline#themes#generate_color_map(
       "\ }
 
 " INSERT
-let s:I1 = [ '#585858' , '#E4E4E4' , 220, 234, 'bold' ]
+let s:I1 = [ '#585858' , '#E4E4E4' , 16, 9, 'bold' ]
 let s:I2 = [ '#E4E4E4' , '#47AF00' , 9 , 234, 'underline'  ]
 let s:I3 = [ '#EEEEEE' , '#2E8700' , 8  , 234  ]
 let g:airline#themes#rodhash#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
