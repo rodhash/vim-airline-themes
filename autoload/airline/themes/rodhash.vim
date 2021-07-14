@@ -1,8 +1,10 @@
 let g:airline#themes#rodhash#palette = {}
 
 hi airline_tabsel ctermbg=none ctermfg=red cterm=underline guibg=none guifg=red gui=underline
-hi airline_tabhid_to_airline_tabsel ctermbg=none ctermfg=yellow guibg=none guifg=yellow
+hi airline_tabhid_to_airline_tabsel ctermbg=none ctermfg=yellow guibg=none guifg=yellow cterm=underline, gui=underline
 hi airline_tab ctermbg=none ctermfg=yellow cterm=underline guibg=none guifg=yellow gui=underline
+hi airline_tabmod ctermfg=16 ctermbg=9 guifg=#ffd700 guibg=#1C1C1C cterm=underline gui=underline
+
 
 let g:airline#extensions#tabline#left_sep = '  '
 let g:airline#extensions#tabline#left_alt_sep = '  '
@@ -17,7 +19,7 @@ let g:airline#themes#rodhash#palette.normal = airline#themes#generate_color_map(
       "\ }
 
 " INSERT
-let s:I1 = [ '#ffd700' , '#1C1C1C' , 16, 9,   'underline'       ]
+let s:I1 = [ '#ffd700' , '#1C1C1C' , 16, 9,          ]
 let s:I2 = [ '#FF0000' , '#1C1C1C' , 9 , 234, 'underline'  ]
 let s:I3 = [ '#7F7F7F' , '#1C1C1C' , 8 , 234               ]
 let g:airline#themes#rodhash#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
